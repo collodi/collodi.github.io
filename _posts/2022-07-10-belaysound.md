@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing BelaySound
+topic: Safer Autobelay
 ---
 
 In my last semester of school, I had to do a project that utilized different sensors on a smart device.
