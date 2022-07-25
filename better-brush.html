@@ -1,0 +1,36 @@
+---
+layout: page
+title: Better Brush
+---
+
+<p>
+  Climbing brushes are the reason we all send our projects.
+  The brushes are important in competition climbing and pushing the limits outdoors.
+  In this topic, we explore different approaches brushing.
+</p>
+
+<p>
+  The motivation for the project was the COVID restriction on competition climbers to brush their own holds.
+  I thought there must be a more efficient way.
+  Even though the restriction is lifted, I see a potential in this topic.
+</p>
+
+<p>
+  This is a fun side project for me, so I hope you enjoy it as well!
+</p>
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.topic == 'Better Brush' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
