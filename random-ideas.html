@@ -1,0 +1,30 @@
+---
+layout: page
+title: Random Ideas
+---
+
+<p>
+  Here, I have a compilation of all my random ideas.
+  Most of these won’t see the light of day because they are infeasible, not useful, or just flat out too random.
+</p>
+
+<p>
+  Even though I love serious projects, coming up with seemingly the most random ideas is one of my favorite activities.
+  Hopefully, some of these can bring inspiration for new ideas!
+</p>
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.topic == 'Random Ideas' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
