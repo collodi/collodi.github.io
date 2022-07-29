@@ -22,7 +22,7 @@ As for overhangs, there would be more distance between the ladder and the wall t
 For a roof, this ladder is almost useless.
 
 Maybe this can be overcome by having another ladder attached to the original ladder.
-You can picture 2 ladders standing to form the Greek letter lambda ($\lambda$).
+You can picture 2 ladders standing to form the Greek letter lambda (&lambda;).
 With this setup, the second ladder would be near parallel to the overhang.
 Another solution is to just keep using the old ladders.
 
