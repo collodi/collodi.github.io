@@ -13,13 +13,19 @@ layout: default
 <div class="related">
   <h2>Related posts</h2>
   <ul class="related-posts">
-    {% for post in related_posts | limit: 3 %}
+    {% for post in related_posts %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
+          {% if post.url == page.url %}
+            <span>{{ post.title }}
+              <small>{{ post.date | date_to_string }}</small>
+            </span>
+          {% else %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+              <small>{{ post.date | date_to_string }}</small>
+            </a>
+          {% endif %}
         </h3>
       </li>
     {% endfor %}
