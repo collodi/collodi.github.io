@@ -11,7 +11,6 @@ layout: default
 {% assign related_posts = site.posts | where: "topic", page.topic %}
 {% if related_posts.size >= 1 %}
 <div class="related">
-  <h2>Related posts</h2>
   <ul class="related-posts">
     {% for post in related_posts %}
       <li>
