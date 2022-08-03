@@ -1,0 +1,39 @@
+---
+layout: page
+title: Climber Localization
+---
+
+<p>
+  Localization refers to the problem of pinpointing your location.
+  The GPS is one of the most important technologies we have today.
+  We can do thousands of different things by simply knowing where we are.
+</p>
+
+<p>
+  A similar logic applies to climbing.
+  I imagine climber localization will have dozens of applications in the future.
+  This project deals with the localization technology itself.
+</p>
+
+<p>
+  I will talk about different ways to localize climbers and different levels of localization.
+  I will discuss my vision for the project in depth in the first article.
+</p>
+
+<hr />
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.topic == 'Climber Localization' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
