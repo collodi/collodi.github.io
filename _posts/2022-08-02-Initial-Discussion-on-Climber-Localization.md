@@ -14,6 +14,7 @@ This will simplify the problem and give us a solid understanding of the topic be
 Over the article, we’ll talk about possible methods to localize a climber, different levels of climber localization, discuss use cases, and what the future might hold for the technology.
 
 **Different Methods For Localization**
+
 There can be multiple different ways to localize a climber.
 The 2 most obvious ways that I can think of are visual and auditory.
 You can see their examples in BelayVision and BelaySound, respectively.
@@ -24,6 +25,7 @@ However, you might be able to achieve extra accuracy with other mediums dependin
 Also, the cost of hardware can be a factor for using different mediums for localization.
 
 **Levels Of Localization**
+
 Not all localization techniques are equal.
 Some are much harder to achieve than others.
 
@@ -41,6 +43,7 @@ Whereas the highest accuracy can be within inches of the actual climber.
 Obviously, the list is still in its infancy, and we’ll see how it changes once throughout different projects.
 
 **Use Cases**
+
 The use cases for climber localization can be categorized into 3 different buckets.
 The first is when we use the location or orientation data given by the localization technique mentioned above.
 The second is when we calculate new features from the spatial domain (images) using the given information.
@@ -52,6 +55,7 @@ I already have a couple of projects that utilize climber localization: BelaySoun
 Other examples would be to analyze popular routes, pinpoint cruxes, and analyze climber density on each part of the gym.
 
 **Over And Beyond**
+
 A technology that we can make a good use of with localization is identification.
 If we have the identity of the climber, we can automatically log and analyze their progress: what they have sent, what their projects are, and even what their strengths and weaknesses are (we can calculate this by looking at which cruxes they stick and fall on).
 
