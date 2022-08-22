@@ -1,10 +1,10 @@
 # Setup
 title:               Willy Kim
-tagline:             ''
+tagline:             'ideas about climbing'
 description:         ''
 url:                 https://willy.kim
 baseurl:             ''
-paginate:            5
+paginate:            1
 permalink:           pretty
 
 # About/contact
