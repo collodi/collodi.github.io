@@ -31,10 +31,10 @@ Some are much harder to achieve than others.
 
 Here are the levels that outline the difficulty of each technique (in my opinion).
 
-Level 1: Approximate location of the climber on the wall
-Level 2: Location of the enclosing box of the climber
-Level 3: Location of specific body parts (hands, feet, arms, legs, hips, head, etc.)
-Level 4: Orientation of body parts
+Level 1: Approximate location of the climber on the wall  
+Level 2: Location of the enclosing box of the climber  
+Level 3: Location of specific body parts (hands, feet, arms, legs, hips, head, etc.)  
+Level 4: Orientation of body parts  
 
 The accuracy of approximation in level 1 can range widely.
 The lowest accuracy would be to detect if the climber is on the wall or on the ground.
