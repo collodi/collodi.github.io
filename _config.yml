@@ -4,7 +4,7 @@ tagline:             ''
 description:         ''
 url:                 https://willy.kim
 baseurl:             ''
-paginate:            1
+paginate:            5
 permalink:           pretty
 
 # About/contact
