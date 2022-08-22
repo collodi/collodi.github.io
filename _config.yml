@@ -5,6 +5,7 @@ description:         ''
 url:                 https://willy.kim
 baseurl:             ''
 paginate:            1
+paginate_path:       /recent-posts/:num/
 permalink:           pretty
 
 # About/contact
