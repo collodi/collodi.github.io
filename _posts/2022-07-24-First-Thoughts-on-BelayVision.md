@@ -2,6 +2,7 @@
 layout: post
 title: First Thoughts on BelayVision
 topic: Safer Autobelay
+featured: True
 ---
 
 Before I begin, I’d like to say that this post is a jumble of all my ideas relating to BelayVision.
