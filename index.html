@@ -39,6 +39,22 @@ title: Home
 <hr />
 
 <p>
-  You can go <a href="/recent-posts">here</a> to read my recent posts.
-  Or simply click the menu button at the top to go to a specific project!
+  Check out some featured articles below, or go <a href="/recent-posts">here</a> for recent posts.
+  Or you can simply click the menu button at the top to go to a specific project!
 </p>
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.featured == 'True' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
