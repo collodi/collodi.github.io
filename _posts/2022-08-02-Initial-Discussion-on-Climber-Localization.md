@@ -2,6 +2,7 @@
 layout: post
 title: Initial Discussion on Climber Localization
 topic: Climber Localization
+featured: True
 ---
 
 Thankfully, climber localization is a much easier topic than global localization, so we don’t have to shoot any satellites up into space.
