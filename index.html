@@ -45,7 +45,7 @@ title: Home
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if post.featured == 'True' %}
+    {% if post.featured %}
       <div>
         <h1 class="post-title">
           <a href="{{ post.url | absolute_url }}">
