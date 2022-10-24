@@ -1,3 +1,10 @@
+---
+layout: post
+title: First Iteration Of BelayVision
+topic: Safer Autobelay
+featured: True
+---
+
 This article details my first implementation of BelayVision.
 There are many aspects of the project that require huge improvements, but overall, I think we have a good start.
 The source for this project can be found [here](https://github.com/collodi/belayvision) on my github.
