@@ -2,6 +2,7 @@
 layout: post
 title: First Poll Brush Prototype
 topic: Better Brush
+featured: True
 ---
 
 When I first started thinking about a better climbing brush, I immediately went to a motorized brush as most people would.
