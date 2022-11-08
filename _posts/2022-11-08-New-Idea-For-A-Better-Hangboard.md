@@ -34,4 +34,4 @@ If you have super strong fingers and wanna pull more than 100% of your weight wi
 
 I will be using [this scale](https://a.co/d/5HuTov9) for my prototype, and will update when I have a working version.
 
-Before I wrap up, I’d like to thank Ryan Arment for inspiring this idea and [OpenScale](https://github.com/oliexdev/openScale) for facilitating the implementation.
+Before I wrap up, I’d like to thank [Ryan Arment](https://www.abckidsboulder.com/team/ryan-arment/) for inspiring this idea and [OpenScale](https://github.com/oliexdev/openScale) for facilitating the implementation.
