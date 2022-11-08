@@ -1,0 +1,32 @@
+---
+layout: page
+title: Better Hangboard
+---
+
+<p>
+  This is a project to make hangboarding more systematic.
+  Not just for training, but also for finger rehabs and etc.
+</p>
+  
+<p>
+  For more detailed explanation, please read the first article.
+  Hope you enjoy!
+</p>
+
+<hr />
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.topic == 'Better Hangboard' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
