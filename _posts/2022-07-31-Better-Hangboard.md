@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Better Hangboard
-topic: Random Ideas
+topic: Better Hangboard
 ---
 
 I’ve been using the Tension Block for a month or so now for training and rehab.
