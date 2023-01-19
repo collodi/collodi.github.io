@@ -2,6 +2,7 @@
 layout: post
 title: Introducing NoHangBetter
 topic: Better Hangboard
+featured: True
 ---
 
 The app is here! It’s called NoHangBetter, and it should be available for Android soon.
