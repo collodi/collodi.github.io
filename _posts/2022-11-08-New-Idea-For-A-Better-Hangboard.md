@@ -2,7 +2,6 @@
 layout: post
 title: New Idea For A Better Hangboard
 topic: Better Hangboard
-featured: True
 ---
 
 Okay, hear me out.
