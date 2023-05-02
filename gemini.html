@@ -1,0 +1,56 @@
+---
+layout: page
+title: Gemini
+---
+
+<p>
+This project is dedicated to Ella Music and Julia Borges de Villasante.
+</p>
+
+<p>
+Two kids at ABC approached me one day and asked if I could make a MoonBoard app where an AI generates climbs in certain grades taking the climber’s reach into consideration.
+I’ve already discussed this idea with a few colleagues, but the kids asking nudged me a little farther.
+</p>
+
+<p>
+Coming up with AI-generated board climbs is easy.
+However, what we need is parameterization.
+In other words, we need an AI that can generate climbs given certain parameters, reach being our parameter in Ella and Julia’s case.
+Sure, you can easily take grades into consideration because the dataset is right there.
+But how about reach, age, or even style of climbing?
+This is a much harder problem because there is a serious lack of data labeling in most cases and no easy way to label them.
+</p>
+
+<p>
+Going into it, I realized that a more mathematically rigorous system that contains our prior knowledge about all these parameters may do better than an end-to-end generative AI.
+For the next few days, I kept thinking.
+One night, I had an idea.
+</p>
+
+<p>
+Developing on that idea, I realized this very idea may be a good foundation for representing any climbs on any wall mathematically.
+The model is still in its infancy, and I believe focusing on the board climbs will properly develop the idea for harder projects.
+</p>
+
+<p>
+The posts for this project will contain topics ranging from the system itself all the way to random crazy ideas I might have.
+Enjoy!
+</p>
+
+<hr />
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.topic == 'Gemini' %}
+      <div>
+        <h1 class="post-title">
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
